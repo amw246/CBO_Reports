@@ -1,0 +1,14 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+% \graphicspath{ {images/} }
+
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+% \SweaveOpts{concordance=TRUE}
+
+\includegraphics{
+file.path("O:\!Policy\Projects\DOE\Requests, CBOs\GNYC_Logo.png")}
+
+\end{document}

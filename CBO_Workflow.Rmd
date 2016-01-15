@@ -1,0 +1,42 @@
+---
+title: "CBO Workflow"
+author: "Andrew Wallace"
+date: "January 15, 2016"
+output: 
+  html_document:
+    self_contained: yes
+
+---
+
+This document will outline the workflow for creating the CBO reports using R. 
+
+# Overview
+
+Report creation in R will involve the following steps:
+
+1. Matching the data in Stata
+2. Creating a data set to bring into R
+3. Writing R code run the analysis
+4. Knit the analysis into an html file
+5. Send the analysis to GradNYC! for review
+
+## File locations
+
+The files that the CBOs send us are Excel workbooks that we recieve through Tumbleweed. When Sharae indicates that the data have been uploaded by the CBOs on to Tumbleweed, the analyst needs to download the files to the O:\ drive in the following overall location: 
+O:\\!Policy\\Projects\\DOE\\Requests, CBOs\\
+
+Each new round of reports gets its own subfolder (e.g. O:\\!Policy\\Projects\\DOE\\Requests, CBOs\\20150327 round 06 w6y3\\). The folder name for these rounds is as follows: 
+
+- Date of report (YYYYMMMM, usually corresponding to the date of receipt of data)
+- Round (each round is an iteration of a reports, with updates occuring on a semi-regular basis)
+- Wave and Year (to date there have been 7 waves in 4 years of reporting: w7y4)
+
+## Matching data
+
+
+![GNYC_LOGO](GNYC_Logo.png)
+
+
+The logo should be above
+
+
